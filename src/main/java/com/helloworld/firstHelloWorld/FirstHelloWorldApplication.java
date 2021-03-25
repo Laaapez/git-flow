@@ -15,8 +15,8 @@ public class FirstHelloWorldApplication {
 	}
 
 	@GetMapping("/hello")
-	public String hello(@RequestParam(value = "name", defaultValue = "Mundo") String name) {
-		return String.format("Hola %s!", name);
+	public String hello(@RequestParam(value = "name", defaultValue = "KORE WA!!!!!!") String name) {
+		return String.format("NANDE %s!", name);
 	}
 
 }
